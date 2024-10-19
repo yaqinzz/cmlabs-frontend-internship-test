@@ -15,13 +15,13 @@ This project is the front-end part of the Web Food Recipes application, built us
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/web-food-recipes.git
+git clone https://github.com/yaqinzz/cmlabs-frontend-internship-test.git
 ```
 
 2. Navigate to the project directory:
 
 ```sh
-cd web-food-recipes/FRONT-END
+cd cmlabs-frontend-internship-test
 ```
 
 3. Install the dependencies:
@@ -35,10 +35,10 @@ npm install
 To start the development server, run:
 
 ```sh
-npm start
+npm run dev
 ```
 
-Open your browser and navigate to `http://localhost:3000` to see the application in action.
+Open your browser and navigate to `http://localhost:5173/` to see the application in action.
 
 ## Features
 
@@ -63,5 +63,5 @@ To configure the environment variables, follow these steps:
 2. Add the following variables to the `.env` file:
 
 ```env
-VITE_APP_BASE_API_URL=http://yourapiurl.com
+VITE_APP_BASE_API_URL=https://www.themealdb.com
 ```
